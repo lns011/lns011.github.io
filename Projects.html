@@ -1,8 +1,45 @@
-<html>
-<body>  
-
+<!DOCTYPE html>
+<html> <head>
+ <meta charset="utf-8">
+ <title>Linda Sylvie Portfolio</title</title>
+ <link rel="stylesheet" href="styles.css">
+ 
    
-    <h4> PROJECTS</h4>
+ <button onclick="myFunction()">change mode</button>
+
+ <script>
+ function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
+ </script>
+
+
+  
+ </head>
+ <body>
+
+  <div class="fixed-header">
+    <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Projects.html">Projects</a>
+            <a href = "Experience.html">Experience</a>
+            <a href="Contact.html">Contact</a>   
+            
+        </nav>
+    </div>
+
+</div>
+    <div class="grid-2">
+        <div class= "section-1">
+          <img src = "logo1.JPG"  alt="Logo1 in PR" width="550" height="600" >
+           <h2>Linda Sylvie</h2>
+           <p>Indianapolis, IN</p>
+        </div>
+
+        <div class="section-2">
+    <h2> PROJECTS</h2>
         <p>     
         <b>-Database design & administration-</b> Created a denormalized schema that improved the performance of given queries for a library management system regarding the costs and impacts. 
         Choosing a suitable partitioning plan if the database remains centralized in one location. Worked on transaction security and data availability. <br>
@@ -15,5 +52,16 @@
         and estimated time for each activity to be done and overall the time that the project might take to be accomplished on time.
         </p>
 
-</body>
-</html>    
+    </div>
+
+ 
+
+    <footer>
+          <a href="https://github.com/lns011" >
+          <img alt="Github" src="Github.png" width="53" height="50"></a> 
+          &nbsp;&nbsp;&nbsp;
+          <a href="https://www.linkedin.com/in/linda-sylvie-85087416a/" >
+      <img alt="Linkedin" src="Linkdin.png" width="58" height="56"></a>
+    </footer>
+    </body>
+    </html>

@@ -5,60 +5,67 @@
  <title>Linda Sylvie Portfolio</title</title>
  <link rel="stylesheet" href="styles.css">
  
- <style>
-iframe  {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
- margin-top: auto;
- margin-bottom: auto;
-}  
-</style>  
+   
+ <button onclick="myFunction()">change mode</button>
+
+ <script>
+ function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
+ </script>
+
+
   
  </head>
  <body>
 
-    <div class="fixed-header">
-        <div class="container">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="Academics.html">Academics</a>
-                <a href="Projects.html">Projects</a>
-                <a href = "Experience.html">Experience</a>
-                <a href="Contact.html">Contact</a>
-            </nav>
-        </div>
-    </div>
+  <div class="fixed-header">
     <div class="container">
-    
-     <center> <img src = "logo1.JPG" alt ="centered image" height="200px" width= "250" > </img></center>
-      
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Projects.html">Projects</a>
+            <a href = "Experience.html">Experience</a>
+            <a href="Contact.html">Contact</a>   
+            
+        </nav>
+    </div>
+
+</div>
+    <div class="grid-2">
+        <div class= "section-1">
+          <img src = "logo1.JPG"  alt="Logo1 in PR" width="550" height="600" >
+           <h2>Linda Sylvie</h2>
+           <p>Indianapolis, IN</p>
+        </div>
+              
+
+    <div class="section-2">
+    <h2>Biography</h2>
      <p>Hello, My name is Linda Sylvie I am 25 years old. I have an Associate degree in Database administration and Business intelligent. 
      I am currently puirsuing my bachelor degree in Cyber Security Track at University of North-Carolina at Pembroke. 
      I am currenty doing an internship for MLH(Major Legue Hacking).This is my portfolio where you can learn a little bit more about me.
      Nice to meet you all! </p>
-  
-  <iframe width="424" height="238" src="https://www.youtube.com/embed/npoJBt4agWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <div class="fixed-footer">
-        <div class="container">
-            <a href="https://github.com/lns011" >
-            <img alt="Github" src="Github.png" width="55" height="50"></a>
-       
-        &nbsp;&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/in/linda-sylvie-85087416a/" >
-        <img alt="Linkedin" src="Linkdin.png" width="55" height="50"></a>
+     <h2>Education</h2>
+     <p>I am a student at University of North Carolina at Pembroke-NC where I study Cyber Secury Track/IT, and I hopfully will graduate in december 2023.
+     I also have an Associate degree in applied science/DBA & BI from Central Piedmont Community College located in Charlotte, NC. For more detailed information please take a look at my resume down below.
+      <a href = "https://docs.google.com/document/d/1-kUFryEfxqe5B8lQTl5xdfCgtNZoV43ag7pdgoUj3e0/edit?usp=sharing"> Resume </a> </p>
      
-        </div>        
-    </div>
-    <button onclick="myFunction()">Toggle dark mode</button>
+     </div>
 
-    <script>
-    function myFunction() {
-       var element = document.body;
-       element.classList.toggle("dark-mode");
-    }
-    </script>   
+ 
+
+    <footer>
+          <a href="https://github.com/lns011" >
+          <img alt="Github" src="Github.png" width="53" height="50"></a> 
+          &nbsp;&nbsp;&nbsp;
+          <a href="https://www.linkedin.com/in/linda-sylvie-85087416a/" >
+      <img alt="Linkedin" src="Linkdin.png" width="58" height="56"></a>
+    </footer>
+             
+  
+ 
 </body>
     
 
